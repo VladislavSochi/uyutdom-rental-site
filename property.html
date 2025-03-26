@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом у озера | УютДом</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <!-- ... -->
+    </header>
+
+    <!-- Хлебные крошки -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Главная</a> &raquo; 
+            <a href="catalog.html">Каталог</a> &raquo; 
+            <span>Дом у озера</span>
+        </div>
+    </section>
+
+    <!-- Основное содержимое -->
+    <main class="property-page">
+        <div class="container">
+            <div class="property-main">
+                <!-- Галерея -->
+                <div class="gallery" id="property-gallery">
+                    <a href="images/house1-large.jpg" class="gallery-item">
+                        <img src="images/house1.jpg" alt="Дом у озера">
+                    </a>
+                    <a href="images/living-room-large.jpg" class="gallery-item">
+                        <img src="images/living-room.jpg" alt="Гостиная">
+                    </a>
+                    <a href="images/bedroom-large.jpg" class="gallery-item">
+                        <img src="images/bedroom.jpg" alt="Спальня">
+                    </a>
+                    <a href="images/kitchen-large.jpg" class="gallery-item">
+                        <img src="images/kitchen.jpg" alt="Кухня">
+                    </a>
+                    <a href="images/bathroom-large.jpg" class="gallery-item">
+                        <img src="images/bathroom.jpg" alt="Ванная">
+                    </a>
+                </div>
+                
+                <!-- Основная информация -->
+                <div class="property-details">
+                    <h1>Дом у озера</h1>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Ленинградская область, 120 км от СПб</p>
+                    
+                    <div class="price-box">
+                        <div class="price">5 000 ₽ <span>/ сутки</span></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7 (12 отзывов)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="quick-info">
+                        <div class="info-item">
+                            <i class="fas fa-home"></i>
+                            <span>Площадь: 120 м²</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-bed"></i>
+                            <span>Спальни: 3</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span>Гостей: до 6</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-bath"></i>
+                            <span>Санузлы: 2</span>
+                        </div>
+                    </div>
+                    
+                    <div class="amenities">
+                        <h3>Удобства</h3>
+                        <div class="amenities-grid">
+                            <div class="amenity">
+                                <i class="fas fa-wifi"></i>
+                                <span>Wi-Fi</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-tv"></i>
+                                <span>Телевизор</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-utensils"></i>
+                                <span>Кухня</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-parking"></i>
+                                <span>Парковка</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-snowflake"></i>
+                                <span>Кондиционер</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-hot-tub"></i>
+                                <span>Баня</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-swimming-pool"></i>
+                                <span>Озеро</span>
+                            </div>
+                            <div class="amenity">
+                                <i class="fas fa-tshirt"></i>
+                                <span>Стиральная машина</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Описание и детали -->
+            <div class="property-description">
+                <h2>Описание</h2>
+                <p>Уютный дом на берегу живописного озера в экологически чистом районе Ленинградской области. Идеальное место для отдыха от городской суеты.</p>
+                <p>Дом полностью оборудован для комфортного проживания: просторная гостиная с камином, три спальни, две ванные комнаты, полностью оборудованная кухня. На территории есть собственная баня, мангальная зона и выход к озеру.</p>
+                
+                <h3>Расположение</h3>
+                <p>Дом расположен в 120 км от Санкт-Петербурга, в тихом и живописном месте. Рядом лес, озеро с песчаным пляжем. В 5 км находится деревня с магазинами.</p>
+                
+                <div class="map" id="property-map">
+                    <!-- Здесь будет карта -->
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+            
+            <!-- Форма бронирования -->
+            <div class="booking-form">
+                <h2>Забронировать</h2>
+                <form id="booking">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="check-in">Заезд</label>
+                            <input type="date" id="check-in" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out">Выезд</label>
+                            <input type="date" id="check-out" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Гостей</label>
+                            <select id="guests" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Дополнительные пожелания</label>
+                        <textarea id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Отправить заявку</button>
+                </form>
+            </div>
+            
+            <!-- Отзывы -->
+            <div class="reviews">
+                <h2>Отзывы</h2>
+                <div class="review">
+                    <div class="review-header">
+                        <div class="review-author">Анна Иванова</div>
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="review-date">15.08.2023</div>
+                    </div>
+                    <div class="review-text">
+                        <p>Отличный дом для отдыха с семьёй! Всё чисто, уютно, соответствует фото. Особенно понравилась баня и выход к озеру. Обязательно вернёмся!</p>
+                    </div>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="review-author">Дмитрий Петров</div>
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="review-date">02.07.2023</div>
+                    </div>
+                    <div class="review-text">
+                        <p>Хорошее место для отдыха компанией. Небольшие замечания по кухонной утвари, но в целом всё отлично. Хозяева отзывчивые, помогли с вопросами.</p>
+                    </div>
+                </div>
+                
+                <button class="btn btn-outline">Оставить отзыв</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <!-- ... -->
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script>
+        // Инициализация галереи
+        document.addEventListener('DOMContentLoaded', function() {
+            lightGallery(document.getElementById('property-gallery'), {
+                selector: '.gallery-item',
+                download: false
+            });
+            
+            // Обработка формы бронирования
+            document.getElementById('booking').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Ваша заявка отправлена! Мы свяжемся с вами в ближайшее время.');
+                this.reset();
+            });
+        });
+    </script>
+</body>
+</html>
